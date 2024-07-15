@@ -18,12 +18,59 @@ body {
     align-items: center;
 }
 
+button {
+    text-align: center;
+    height: 23px;
+    width: 113px;
+}
+
 .flex-container {
     display: flex;
     flex-direction: column;
+    gap: 5px;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#drawing-inputs {
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
 .title {
     text-align: center;
+    margin: 10px;
 }
 
+#grid-input {
+    min-width: 155px;
+    text-align: center;
+    
+}
+
+#drawing-area {
+    display: flex;
+    flex-flow: column wrap;
+    width: 565px;
+    height: 564px;
+    border: 20px solid rgb(214, 0, 0);
+}
+
+.grid-line {
+    display: flex;
+    flex-grow: 1;
+}
+
+.grid {
+    flex: 1 1 5px;
+    border: 1px solid black;
+}
+
+.grid:hover {
+    background-color: red;
+}

@@ -10,13 +10,18 @@
     <body>
         <div class="flex-container">
             <h1 class="title">Etch A Sketch</h1>
-            <div class="grid-size">
-                <!-- probably images with grid sizes, like small circle with 16:16 on it, or just circled borders -->
-            </div>
-            <div class="border-area">
-                <div id="drawing-area">
-                    <!-- to-do through JS -->
+            <div class="inputs">
+                <form id="grid-form">
+                    <input type="text", id="grid-input" placeholder="From 2 to 100 (Default: 16)">
+                </form>
+                <div id="drawing-inputs">
+                    <button id="start-drawing">Start Drawing</button>
+                    <button id="stop-drawing">Stop Drawing</button>
+                    <button id="reset-button">Reset</button>
                 </div>
+            </div>
+            <div id="drawing-area">
+                <!-- grid is inserted through JS -->
             </div>
         </div>
     </body>
