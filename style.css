@@ -74,3 +74,9 @@ button {
 .grid:hover {
     background-color: red;
 }
+
+.grid-colored {
+    flex: 1 1 5px;
+    border: 1px solid black;
+    background-color: #0000FF;
+}
